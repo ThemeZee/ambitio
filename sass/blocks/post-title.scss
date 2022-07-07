@@ -1,0 +1,13 @@
+/* Post Title Block */
+.wp-block-post-title {
+	a {
+		text-decoration: none;
+		color: var(--wp--preset--color--foreground);
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: var(--wp--preset--color--primary);
+		}
+	}
+}
