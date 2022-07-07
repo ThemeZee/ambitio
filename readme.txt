@@ -23,12 +23,6 @@ For more information about Ambitious please go to https://themezee.com/themes/am
 
 == Changelog ==
 
-= 1.0.2 - 2022-06-07 =
-* fixed PHP notice in block editor
-
-= 1.0.1 - 2022-06-02 =
-* updated information about theme screenshot in readme.txt
-
 = 1.0 - 2022-06-01 =
 * Initial Release
 
