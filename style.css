@@ -372,6 +372,10 @@ Remove CSS when 6.0 is released. */
 --------------------------------------------------------------*/
 
 /* Site Title Block */
+.wp-block-site-title {
+	font-weight: normal;
+}
+
 .wp-block-site-title a {
 	text-decoration: none;
 }
