@@ -1,5 +1,11 @@
 /* Main Navigation */
 .is-style-main-navigation {
+	.wp-block-navigation__responsive-container-close svg,
+	.wp-block-navigation__responsive-container-open svg {
+		width: 36px;
+		height: 36px;
+	}
+
 	.wp-block-navigation__responsive-container:not(.is-menu-open) {
 		.wp-block-navigation__container {
 			gap: 0 1.6rem;

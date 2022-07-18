@@ -299,12 +299,7 @@
 	"templateParts": [
 		{
 			"name": "header",
-			"title": "Header Large",
-			"area": "header"
-		},
-		{
-			"name": "header-small",
-			"title": "Header Small",
+			"title": "Header",
 			"area": "header"
 		},
 		{
