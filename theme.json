@@ -66,28 +66,23 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#e34333",
+					"color": "#3d7081",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#c92919",
+					"color": "#1F5263",
 					"name": "Secondary"
 				},
 				{
+					"slug": "light-background",
+					"color": "#99ccdd",
+					"name": "Light Background"
+				},
+				{
 					"slug": "dark-background",
-					"color": "#303030",
+					"color": "#003344",
 					"name": "Dark Background"
-				},
-				{
-					"slug": "light-gray",
-					"color": "#e0e0e0",
-					"name": "Light Gray"
-				},
-				{
-					"slug": "gray",
-					"color": "#808080",
-					"name": "Gray"
 				}
 			]
 		},
