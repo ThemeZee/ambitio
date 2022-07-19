@@ -83,6 +83,11 @@
 					"slug": "dark-background",
 					"color": "#003344",
 					"name": "Dark Background"
+				},
+				{
+					"slug": "gray",
+					"color": "#808080",
+					"name": "Gray"
 				}
 			]
 		},
