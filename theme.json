@@ -66,7 +66,7 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#3d7081",
+					"color": "#477a8b",
 					"name": "Primary"
 				},
 				{
@@ -76,7 +76,7 @@
 				},
 				{
 					"slug": "light-background",
-					"color": "#99ccdd",
+					"color": "#e5ffff",
 					"name": "Light Background"
 				},
 				{

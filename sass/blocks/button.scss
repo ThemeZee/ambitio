@@ -10,6 +10,17 @@
 		background-color: var(--wp--preset--color--secondary);
 		text-decoration: none;
 	}
+
+	&.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color),
+	&.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color) {
+		color: var(--wp--preset--color--primary);
+
+		&:hover,
+		&:active {
+			color: var(--wp--preset--color--secondary);
+			text-decoration: none;
+		}
+	}
 }
 
 .wp-block-button__link {
