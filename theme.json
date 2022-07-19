@@ -150,22 +150,22 @@
 					"name": "Medium"
 				},
 				{
-					"size": "clamp(20px, calc(1rem + 0.83vw), 24px)",
+					"size": "clamp(22px, calc(1rem + 1.25vw), 28px)",
 					"slug": "large",
 					"name": "Large"
 				},
 				{
-					"size": "clamp(22px, calc(1rem + 1.25vw), 28px)",
+					"size": "clamp(24px, calc(1rem + 1.67vw), 36px)",
 					"slug": "x-large",
 					"name": "Extra Large"
 				},
 				{
-					"size": "clamp(24px, calc(1rem + 1.67vw), 36px)",
+					"size": "clamp(28px, calc(1rem + 2.5vw), 48px)",
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				},
 				{
-					"size": "clamp(28px, calc(1rem + 2.5vw), 48px)",
+					"size": "clamp(32px, calc(1rem + 2.75vw), 64px)",
 					"slug": "huge",
 					"name": "Huge"
 				}
