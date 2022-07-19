@@ -105,7 +105,7 @@
 				},
 				"font-size": {
 					"body": "17px",
-					"text": "clamp(16px, calc(1rem + 0.16vw), 19px)"
+					"text": "clamp(17px, calc(1rem + 0.24vw), 20px)"
 				}
 			}
 		},
