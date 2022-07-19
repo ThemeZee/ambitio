@@ -97,7 +97,7 @@ function ambitious_excerpt_length( $length ) {
 		return $length;
 	}
 
-	return apply_filters( 'ambitious_excerpt_length', 20 );
+	return apply_filters( 'ambitious_excerpt_length', 42 );
 }
 add_filter( 'excerpt_length', 'ambitious_excerpt_length' );
 
