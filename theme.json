@@ -85,9 +85,14 @@
 					"name": "Dark Background"
 				},
 				{
-					"slug": "gray",
+					"slug": "light-gray",
+					"color": "#c0c0c0",
+					"name": "Light Gray"
+				},
+				{
+					"slug": "dark-gray",
 					"color": "#808080",
-					"name": "Gray"
+					"name": "Dark Gray"
 				}
 			]
 		},
@@ -104,7 +109,7 @@
 					"text": 1.75
 				},
 				"font-size": {
-					"body": "17px",
+					"body": "18px",
 					"text": "clamp(17px, calc(1rem + 0.24vw), 20px)"
 				}
 			}
@@ -130,22 +135,22 @@
 			],
 			"fontSizes": [
 				{
-					"size": "14px",
+					"size": "13px",
 					"slug": "tiny",
 					"name": "Tiny"
 				},
 				{
-					"size": "16px",
+					"size": "15px",
+					"slug": "x-small",
+					"name": "Extra Small"
+				},
+				{
+					"size": "17px",
 					"slug": "small",
 					"name": "Small"
 				},
 				{
-					"size": "18px",
-					"slug": "normal",
-					"name": "Normal"
-				},
-				{
-					"size": "20px",
+					"size": "22px",
 					"slug": "medium",
 					"name": "Medium"
 				},
@@ -189,7 +194,7 @@
 					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--normal)"
+					"fontSize": "var(--wp--custom--typography--font-size--body)"
 				}
 			},
 			"core/post-content": {

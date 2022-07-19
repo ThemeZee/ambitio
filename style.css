@@ -247,12 +247,11 @@ input[type="reset"],
 input[type="submit"] {
 	margin: 0;
 	padding: calc(0.75rem + 2px) calc(1.25rem + 2px);
-	border: none;
-	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--primary);
+	border: 2px solid currentColor;
+	color: var(--wp--preset--color--primary);
 	text-decoration: none;
 	font-weight: bold;
-	font-size: var(--wp--preset--font-size--normal);
+	font-size: var(--wp--custom--typography--font-size--body);
 	line-height: inherit;
 }
 
@@ -265,8 +264,7 @@ input[type="submit"]:focus,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--secondary);
 }
 
 input[type="text"],
@@ -437,7 +435,7 @@ Remove CSS when 6.0 is released. */
 	color: var(--wp--preset--color--primary);
 	text-decoration: none;
 	font-weight: bold;
-	font-size: var(--wp--preset--font-size--normal);
+	font-size: var(--wp--custom--typography--font-size--body);
 }
 
 .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:hover, .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:focus, .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:active {
