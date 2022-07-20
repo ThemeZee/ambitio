@@ -171,8 +171,8 @@
 				},
 				{
 					"size": "clamp(32px, calc(1rem + 2.75vw), 64px)",
-					"slug": "huge",
-					"name": "Huge"
+					"slug": "xxx-large",
+					"name": "Extra Extra Extra Large"
 				}
 			]
 		},
@@ -222,7 +222,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--roboto)",
-					"fontSize": "var(--wp--preset--font-size--huge)",
+					"fontSize": "var(--wp--preset--font-size--xxx-large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
 			},
