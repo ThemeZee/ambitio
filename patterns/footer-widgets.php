@@ -6,8 +6,8 @@
 */
 ?>
 
-<!-- wp:columns {"style":{"spacing":{"padding":{"top":"2vw","bottom":"2vw"}}}} -->
-<div class="wp-block-columns" style="padding-top:2vw;padding-bottom:2vw">
+<!-- wp:columns {"style":{"spacing":{"blockGap":"4vw","margin":{"bottom":"4vw"}}}} -->
+<div class="wp-block-columns" style="margin-bottom:4vw">
 
 	<!-- wp:column -->
 	<div class="wp-block-column">
@@ -35,11 +35,11 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-		<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-		<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'ambitious' ); ?></h3>
-		<!-- /wp:heading -->
+			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'ambitious' ); ?></h3>
+			<!-- /wp:heading -->
 
-		<!-- wp:categories {"className":"is-style-flip-link-hover"} /-->
+			<!-- wp:categories {"className":"is-style-flip-link-hover"} /-->
 
 		</div>
 		<!-- /wp:group -->
@@ -53,11 +53,37 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-		<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-		<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'ambitious' ); ?></h3>
-		<!-- /wp:heading -->
+			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'ambitious' ); ?></h3>
+			<!-- /wp:heading -->
 
-		<!-- wp:archives {"className":"is-style-flip-link-hover"} /-->
+			<!-- wp:archives {"className":"is-style-flip-link-hover"} /-->
+
+		</div>
+		<!-- /wp:group -->
+
+	</div>
+	<!-- /wp:column -->
+
+	<!-- wp:column -->
+	<div class="wp-block-column">
+
+		<!-- wp:group {"className":"footer-widget"} -->
+		<div class="wp-block-group footer-widget">
+
+			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Stay in touch', 'ambitious' ); ?></h3>
+			<!-- /wp:heading -->
+
+			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
+			<ul class="wp-block-social-links has-icon-color is-style-logos-only">
+
+				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+				<!-- wp:social-link {"url":"https://facebook.com/","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
+
+			</ul>
+			<!-- /wp:social-links -->
 
 		</div>
 		<!-- /wp:group -->
