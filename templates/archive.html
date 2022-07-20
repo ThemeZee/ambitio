@@ -1,37 +1,23 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"3.5vw"},"padding":{"right":"3.5vw","left":"3.5vw"}}},"className":"site-content","layout":{"contentSize":"1200px"}} -->
-<main class="wp-block-group site-content" style="margin-top:3.5vw;padding-right:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0px"}}},"className":"site-content"} -->
+<main class="wp-block-group site-content" style="margin-top:0px">
 
-	<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"0px"},"blockGap":"3.5vw"}}} -->
-	<div class="wp-block-columns" style="margin-bottom:0px">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"6vw","right":"4vw","bottom":"6vw","left":"4vw"}}},"backgroundColor":"dark-background","textColor":"white","className":"entry-header","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
+	<div class="wp-block-group alignfull entry-header has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:6vw;padding-right:4vw;padding-bottom:6vw;padding-left:4vw">
 
-		<!-- wp:column {"width":"70%","className":"post-wrapper"} -->
-		<div class="wp-block-column post-wrapper" style="flex-basis: 70%;">
-
-			<!-- wp:group -->
-			<div class="wp-block-group">
-
-				<!-- wp:query-title {"type":"archive","style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-underlined-heading","fontSize":"large"} /-->
-
-				<!-- wp:pattern {"slug":"ambitious/blog-posts-list"} /-->
-
-			</div>
-			<!-- /wp:group -->
-
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"30%","className":"sidebar-wrapper"} -->
-		<div class="wp-block-column sidebar-wrapper" style="flex-basis: 30%;">
-			
-			<!-- wp:template-part {"slug":"sidebar","tagName":"section"} /-->
-
-		</div>
-		<!-- /wp:column -->
+		<!-- wp:query-title {"type":"archive","textAlign":"center","style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 
 	</div>
-	<!-- /wp:columns -->
+	<!-- /wp:group -->
+
+	<!-- wp:group {"style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"margin":{"top":"0px"}}},"layout":{"contentSize":"2400px","wideSize":"2400px","inherit":false}} -->
+	<div class="wp-block-group" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
+
+		<!-- wp:pattern {"slug":"ambitious/blog-posts-list"} /-->
+
+	</div>
+	<!-- /wp:group -->
 
 </main>
 <!-- /wp:group -->
