@@ -442,40 +442,21 @@ Remove CSS when 6.0 is released. */
 	color: var(--wp--preset--color--secondary);
 }
 
-/* Post Comments Block */
-.wp-block-post-comments .commentlist {
-	margin-bottom: 2rem;
+/* Post Comments Form Block */
+.wp-block-post-comments-form .comment-reply-title {
+	margin-top: 2em;
+	font-size: var(--wp--preset--font-size--large);
 }
 
-.wp-block-post-comments .commentlist .comment {
-	margin-bottom: var(--wp--custom--spacing--elements);
+.wp-block-post-comments-form .comment-form .submit.wp-block-button__link {
+	border: 2px solid currentColor;
+	color: var(--wp--preset--color--primary);
+	background: none;
 }
 
-.wp-block-post-comments .commentlist .comment .comment-metadata {
-	font-size: 15px;
-}
-
-.wp-block-post-comments .commentlist .comment p {
-	margin-top: var(--wp--custom--spacing--elements);
-	margin-bottom: var(--wp--custom--spacing--elements);
-	font-size: inherit;
-	line-height: var(--wp--custom--typography--line-height--text);
-}
-
-.wp-block-post-comments .commentlist .children {
-	margin-top: var(--wp--custom--spacing--elements);
-}
-
-.wp-block-post-comments .comment-respond .comment-reply-title {
-	margin: 0;
-}
-
-.wp-block-post-comments .comment-respond p {
-	font-size: inherit;
-}
-
-.wp-block-post-comments .comment-respond .form-submit {
-	margin-bottom: 0;
+.wp-block-post-comments-form .comment-form .submit.wp-block-button__link:hover, .wp-block-post-comments-form .comment-form .submit.wp-block-button__link:active, .wp-block-post-comments-form .comment-form .submit.wp-block-button__link:focus {
+	color: var(--wp--preset--color--secondary);
+	background: none !important;
 }
 
 /* Query Pagination Block */
