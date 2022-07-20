@@ -467,7 +467,15 @@ Remove CSS when 6.0 is released. */
 .wp-block-query-pagination .page-numbers {
 	display: inline-block;
 	font-weight: bold;
-	margin-right: 1.5rem;
+	padding: 0.25rem 1rem;
+	border: 2px solid currentColor;
+	margin-right: 0.5rem;
+	text-decoration: none;
+}
+
+.wp-block-query-pagination .page-numbers.dots {
+	border: none;
+	padding: 0;
 }
 
 /*--------------------------------------------------------------

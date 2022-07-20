@@ -8,6 +8,14 @@
 	.page-numbers {
 		display: inline-block;
 		font-weight: bold;
-		margin-right: 1.5rem;
+		padding: 0.25rem 1rem;
+		border: 2px solid currentColor;
+		margin-right: 0.5rem;
+		text-decoration: none;
+
+		&.dots {
+			border: none;
+			padding: 0;
+		}
 	}
 }
