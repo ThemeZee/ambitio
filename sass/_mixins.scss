@@ -68,3 +68,10 @@
 @mixin variable($variable, $map) {
 	#{$themeSlug + $variable}: map-get($map, $variable);
 }
+
+$break-small: 600px;
+@mixin break-small() {
+	@media (min-width: #{ ($break-small) }) {
+		@content;
+	}
+}

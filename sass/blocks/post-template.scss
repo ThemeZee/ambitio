@@ -1,0 +1,28 @@
+/* Post Template Block */
+.blog-posts-grid {
+	.wp-block-post-template {
+		&.is-flex-container {
+			gap: 0;
+
+			li {
+				margin-bottom: 4vw;
+			}
+
+			@include break-small {
+				li {
+					margin-right: 4vw;
+				}
+
+				@for $i from 2 through 6 {
+					&.is-flex-container.columns-#{ $i } > li {
+						width: calc((100% / #{ $i }) - 4vw + (4vw / #{ $i }));
+
+						&:nth-child( #{ $i }n ) {
+							margin-right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
