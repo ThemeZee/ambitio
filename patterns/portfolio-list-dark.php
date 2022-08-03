@@ -18,8 +18,8 @@
 
 		<div class="wp-block-media-text__content">
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -48,8 +48,8 @@
 
 		<div class="wp-block-media-text__content">
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -78,8 +78,8 @@
 
 		<div class="wp-block-media-text__content">
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Project Three', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Project Three', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

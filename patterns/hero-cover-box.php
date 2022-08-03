@@ -29,8 +29,8 @@
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","right":"3rem","bottom":"3rem","left":"3rem"}}},"backgroundColor":"white","textColor":"dark-background"} -->
 				<div class="wp-block-group has-dark-background-color has-white-background-color has-text-color has-background" style="padding-top:3rem;padding-right:3rem;padding-bottom:3rem;padding-left:3rem">
 
-					<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-					<h2 class="is-style-underlined-heading"><?php _e( 'Hero Headline', 'ambitious' ); ?></h2>
+					<!-- wp:heading -->
+					<h2><?php _e( 'Hero Headline', 'ambitious' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->

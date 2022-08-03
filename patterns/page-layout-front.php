@@ -16,8 +16,8 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-underlined-heading"} -->
-			<h1 class="is-style-underlined-heading" style="margin-top:0px"><?php _e( 'Embrace the future. <br>Use Full Site Editing now.', 'ambitious' ); ?></h1>
+			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}}} -->
+			<h1 style="margin-top:0px"><?php _e( 'Embrace the future. <br>Use Full Site Editing now.', 'ambitious' ); ?></h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -139,8 +139,8 @@
 
 		<div class="wp-block-media-text__content">
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -247,8 +247,8 @@
 
 		<div class="wp-block-media-text__content">
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -322,8 +322,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -336,8 +336,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -356,8 +356,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Three', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -370,8 +370,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Four', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Four', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->

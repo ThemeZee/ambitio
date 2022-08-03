@@ -30,8 +30,8 @@
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","right":"3rem","bottom":"3rem","left":"3rem"}}},"backgroundColor":"white","textColor":"dark-background"} -->
 				<div class="wp-block-group has-dark-background-color has-white-background-color has-text-color has-background" style="padding-top:3rem;padding-right:3rem;padding-bottom:3rem;padding-left:3rem">
 
-					<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-					<h2 class="is-style-underlined-heading"><?php _e( 'Our Services', 'ambitious' ); ?></h2>
+					<!-- wp:heading -->
+					<h2><?php _e( 'Our Services', 'ambitious' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -68,8 +68,8 @@
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'Why choose us?', 'ambitious' ); ?></h2>
+			<!-- wp:heading -->
+			<h2><?php _e( 'Why choose us?', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 		</div>
@@ -152,8 +152,8 @@
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'ambitious' ); ?></h2>
+			<!-- wp:heading -->
+			<h2><?php _e( 'What we have done', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"large"} -->
@@ -178,8 +178,8 @@
 					</figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -206,8 +206,8 @@
 					</figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -262,8 +262,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -276,8 +276,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -296,8 +296,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Three', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -310,8 +310,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Four', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Four', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -382,8 +382,8 @@
 		<!-- wp:column {"width":"30%"} -->
 		<div class="wp-block-column" style="flex-basis:30%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'ambitious' ); ?></h2>
+			<!-- wp:heading -->
+			<h2><?php _e( 'What clients say', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

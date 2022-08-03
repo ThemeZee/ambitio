@@ -783,21 +783,3 @@ Remove CSS when 6.0 is released. */
 .is-style-flip-link-hover a:hover, .is-style-flip-link-hover a:focus, .is-style-flip-link-hover a:active {
 	text-decoration: underline;
 }
-
-/* Underlined Heading */
-.is-style-underlined-heading {
-	position: relative;
-	margin-bottom: 0.75em !important;
-	padding-bottom: 0.75em;
-}
-
-.is-style-underlined-heading::before {
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 1.5em;
-	height: 4px;
-	content: "";
-	background-color: var(--wp--preset--color--primary);
-}

@@ -15,8 +15,8 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-underlined-heading"} -->
-			<h1 class="is-style-underlined-heading" style="margin-top:0px"><?php _e( 'Embrace the future. <br>Use Full Site Editing now.', 'ambitious' ); ?></h1>
+			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}}} -->
+			<h1 style="margin-top:0px"><?php _e( 'Embrace the future. <br>Use Full Site Editing now.', 'ambitious' ); ?></h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->

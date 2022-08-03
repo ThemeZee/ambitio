@@ -42,8 +42,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'One', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -56,8 +56,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Two', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -76,8 +76,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Three', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Three', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -90,8 +90,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Four', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Four', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -122,8 +122,8 @@
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'ambitious' ); ?></h2>
+			<!-- wp:heading -->
+			<h2><?php _e( 'Our Team', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

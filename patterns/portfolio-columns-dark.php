@@ -15,8 +15,8 @@
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'ambitious' ); ?></h2>
+			<!-- wp:heading -->
+			<h2><?php _e( 'What we have done', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"large"} -->
@@ -41,8 +41,8 @@
 					</figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -69,8 +69,8 @@
 					</figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->

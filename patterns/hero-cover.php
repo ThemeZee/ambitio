@@ -19,8 +19,8 @@
 		<p><?php _e( 'Add a subtitle here', 'ambitious' ); ?></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:heading {"level":1,"className":"is-style-underlined-heading"} -->
-		<h1 class="is-style-underlined-heading"><?php _e( 'Hero Headline', 'ambitious' ); ?></h1>
+		<!-- wp:heading {"level":1} -->
+		<h1><?php _e( 'Hero Headline', 'ambitious' ); ?></h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"fontSize":"medium"} -->

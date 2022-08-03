@@ -25,16 +25,16 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+			<!-- wp:heading {"level":3"} -->
+			<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

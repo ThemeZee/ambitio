@@ -15,8 +15,8 @@
 		<!-- wp:column {"width":"30%"} -->
 		<div class="wp-block-column" style="flex-basis:30%">
 
-			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'ambitious' ); ?></h2>
+			<!-- wp:heading -->
+			<h2><?php _e( 'What clients say', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

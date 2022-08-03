@@ -31,8 +31,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -45,8 +45,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -65,8 +65,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Three', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -79,8 +79,8 @@
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
-					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Four', 'ambitious' ); ?></h3>
+					<!-- wp:heading {"level":3"} -->
+					<h3><?php _e( 'Service Four', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
