@@ -12,8 +12,8 @@
 
 	<div class="wp-block-cover__inner-container">
 
-	<!-- wp:group {"style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"textColor":"white","layout":{"type":"default","contentSize":"800px"}} -->
-	<div class="wp-block-group has-white-color has-text-color" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+	<!-- wp:group {"style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"}}},"textColor":"white","layout":{"type":"default","contentSize":"1200px"}} -->
+	<div class="wp-block-group has-white-color has-text-color" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 		<!-- wp:paragraph -->
 		<p><?php _e( 'Add a subtitle here', 'ambitious' ); ?></p>
@@ -29,12 +29,12 @@
 
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
-			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Join now', 'ambitious' ); ?></a></div>
+			<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
+			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitious' ); ?></a></div>
 			<!-- /wp:button -->
 
-			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+			<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
+			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
