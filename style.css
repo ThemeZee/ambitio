@@ -554,15 +554,17 @@ Remove CSS when 6.0 is released. */
 	text-decoration: none;
 }
 
-.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color),
 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color) {
 	color: var(--wp--preset--color--primary);
 }
 
-.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):hover, .wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):active,
-.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):hover,
-.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):active {
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):hover, .wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):active {
 	color: var(--wp--preset--color--secondary);
+	text-decoration: none;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-background).has-white-color:hover, .wp-block-button.is-style-outline .wp-block-button__link:not(.has-background).has-white-color:active {
+	opacity: 0.6;
 	text-decoration: none;
 }
 
