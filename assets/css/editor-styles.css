@@ -9,6 +9,20 @@
 	font-size: var(--wp--custom--typography--font-size--text);
 }
 
+/* Title Wrapper */
+.block-editor-page .edit-post-visual-editor__post-title-wrapper {
+	margin-top: 0;
+	margin-bottom: 4vw;
+	padding: 6vw 4vw;
+	background-color: var(--wp--preset--color--dark-background);
+	color: var(--wp--preset--color--white);
+	text-align: center;
+}
+
+.block-editor-page .edit-post-visual-editor__post-title-wrapper > .wp-block-post-title {
+	max-width: 1200px;
+}
+
 /* Fullwidth Template */
 .ambitious-fullwidth-page .editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper > *,
 .ambitious-fullwidth-page .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > * {
