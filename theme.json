@@ -2,13 +2,6 @@
 	"version": 2,
 	"customTemplates": [
 		{
-			"name": "blank",
-			"title": "Blank",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
 			"name": "page-fullwidth",
 			"title": "Page (Fullwidth)",
 			"postTypes": [
@@ -25,13 +18,6 @@
 		{
 			"name": "page-no-title-fullwidth",
 			"title": "No Title (Fullwidth)",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
-			"name": "page-sidebar-right",
-			"title": "Sidebar Right",
 			"postTypes": [
 				"page"
 			]
