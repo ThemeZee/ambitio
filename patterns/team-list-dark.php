@@ -6,8 +6,8 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"}}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide">
@@ -26,62 +26,116 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"60%"} -->
+		<!-- wp:column {"width":"60%","style":{"spacing":{"blockGap":"2rem"}}} -->
 		<div class="wp-block-column" style="flex-basis:60%">
 
-			<!-- wp:media-text {"mediaType":"image","mediaWidth":40,"verticalAlignment":"center"} -->
-			<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:40% auto">
+			<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
+			<div class="wp-block-columns alignwide are-vertically-aligned-center">
 
-				<figure class="wp-block-media-text__media">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt=""/>
-				</figure>
+				<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 
-				<div class="wp-block-media-text__content">
-
-					<!-- wp:paragraph {"placeholder":"Content…","fontSize":"medium"} -->
-					<p class="has-medium-font-size"><strong>John Doe</strong><br>Founder &amp; CEO</p>
-					<!-- /wp:paragraph -->
-
-				</div>
-
-			</div>
-			<!-- /wp:media-text -->
-
-			<!-- wp:media-text {"mediaType":"image","mediaWidth":40,"verticalAlignment":"center"} -->
-			<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:40% auto">
-
-				<figure class="wp-block-media-text__media">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt=""/>
-				</figure>
-
-				<div class="wp-block-media-text__content">
-
-					<!-- wp:paragraph {"placeholder":"Content…","fontSize":"medium"} -->
-					<p class="has-medium-font-size"><strong>Jane Smith</strong><br>Web Developer</p>
-					<!-- /wp:paragraph -->
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image size-full is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+					</figure>
+					<!-- /wp:image -->
 
 				</div>
+				<!-- /wp:column -->
 
-			</div>
-			<!-- /wp:media-text -->
+				<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
 
-			<!-- wp:media-text {"mediaType":"image","mediaWidth":40,"verticalAlignment":"center"} -->
-			<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center" style="grid-template-columns:40% auto">
-
-				<figure class="wp-block-media-text__media">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt=""/>
-				</figure>
-
-				<div class="wp-block-media-text__content">
-
-					<!-- wp:paragraph {"placeholder":"Content…","fontSize":"medium"} -->
-					<p class="has-medium-font-size"><strong>Mark Miller</strong><br>Online Marketing</p>
+					<!-- wp:paragraph -->
+					<p><strong>John Doe</strong><br>Founder &amp; CEO</p>
 					<!-- /wp:paragraph -->
 
+					<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
+
 				</div>
+				<!-- /wp:column -->
 
 			</div>
-			<!-- /wp:media-text -->
+			<!-- /wp:columns -->
+
+			<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
+			<div class="wp-block-columns alignwide are-vertically-aligned-center">
+
+				<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
+
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image size-full is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+					</figure>
+					<!-- /wp:image -->
+
+				</div>
+				<!-- /wp:column -->
+
+				<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
+
+					<!-- wp:paragraph -->
+					<p><strong>Jane Smith</strong><br>Web Developer</p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
+
+				</div>
+				<!-- /wp:column -->
+
+			</div>
+			<!-- /wp:columns -->
+
+			<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
+			<div class="wp-block-columns alignwide are-vertically-aligned-center">
+
+				<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
+
+					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image size-full is-style-default">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+					</figure>
+					<!-- /wp:image -->
+
+				</div>
+				<!-- /wp:column -->
+
+				<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
+
+					<!-- wp:paragraph -->
+					<p><strong>Mark Miller</strong><br>Online Marketing</p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
+
+				</div>
+				<!-- /wp:column -->
+
+			</div>
+			<!-- /wp:columns -->
 
 		</div>
 		<!-- /wp:column -->

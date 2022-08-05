@@ -6,8 +6,8 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide">
@@ -26,7 +26,7 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"60%"} -->
+		<!-- wp:column {"width":"60%","style":{"spacing":{"blockGap":"2rem"}}} -->
 		<div class="wp-block-column" style="flex-basis:60%">
 
 			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
@@ -45,6 +45,14 @@
 					<p><strong>John Doe</strong><br>Founder &amp; CEO</p>
 					<!-- /wp:paragraph -->
 
+					<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
+
 				</div>
 				<!-- /wp:column -->
 
@@ -60,6 +68,14 @@
 					<!-- wp:paragraph -->
 					<p><strong>Jane Smith</strong><br>Web Developer</p>
 					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
 
 				</div>
 				<!-- /wp:column -->
@@ -83,6 +99,14 @@
 					<p><strong>Mark Miller</strong><br>Online Marketing</p>
 					<!-- /wp:paragraph -->
 
+					<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
+
 				</div>
 				<!-- /wp:column -->
 
@@ -98,6 +122,14 @@
 					<!-- wp:paragraph -->
 					<p><strong>Jill Baker</strong><br>Finance</p>
 					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+					<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+					</ul>
+					<!-- /wp:social-links -->
 
 				</div>
 				<!-- /wp:column -->
