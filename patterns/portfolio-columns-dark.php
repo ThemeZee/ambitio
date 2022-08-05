@@ -6,21 +6,21 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"}}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"3.5vw"}}} -->
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"4vw"}}} -->
 	<div class="wp-block-columns alignwide">
 
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'What we have done', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'Our latest work', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+			<!-- wp:paragraph {"fontSize":"medium"} -->
+			<p class="has-medium-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 			<!-- /wp:paragraph -->
 
 		</div>
@@ -41,7 +41,7 @@
 					</figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"level":3"} -->
+					<!-- wp:heading {"level":3} -->
 					<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
@@ -51,8 +51,8 @@
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+						<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
+						<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -69,7 +69,7 @@
 					</figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"level":3"} -->
+					<!-- wp:heading {"level":3} -->
 					<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
 					<!-- /wp:heading -->
 
@@ -79,8 +79,8 @@
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+						<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
+						<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
