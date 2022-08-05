@@ -74,6 +74,31 @@ a:active {
 	outline: 0;
 }
 
+/* Flip link hover for certain blocks */
+.wp-block-archives a,
+.wp-block-categories a,
+.wp-block-latest-posts a,
+.wp-block-page-list a,
+.wp-block-tag-cloud a {
+	text-decoration: none;
+}
+
+.wp-block-archives a:hover, .wp-block-archives a:focus, .wp-block-archives a:active,
+.wp-block-categories a:hover,
+.wp-block-categories a:focus,
+.wp-block-categories a:active,
+.wp-block-latest-posts a:hover,
+.wp-block-latest-posts a:focus,
+.wp-block-latest-posts a:active,
+.wp-block-page-list a:hover,
+.wp-block-page-list a:focus,
+.wp-block-page-list a:active,
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus,
+.wp-block-tag-cloud a:active {
+	text-decoration: underline;
+}
+
 hr {
 	margin-top: var(--wp--custom--spacing--elements);
 	margin-bottom: var(--wp--custom--spacing--elements);
@@ -774,14 +799,5 @@ Remove CSS when 6.0 is released. */
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content {
-	text-decoration: underline;
-}
-
-/* Flip Link Hover */
-.is-style-flip-link-hover a {
-	text-decoration: none;
-}
-
-.is-style-flip-link-hover a:hover, .is-style-flip-link-hover a:focus, .is-style-flip-link-hover a:active {
 	text-decoration: underline;
 }

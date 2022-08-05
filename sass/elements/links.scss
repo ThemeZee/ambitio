@@ -17,3 +17,20 @@ a:hover,
 a:active {
 	outline: 0;
 }
+
+/* Flip link hover for certain blocks */
+.wp-block-archives,
+.wp-block-categories,
+.wp-block-latest-posts,
+.wp-block-page-list,
+.wp-block-tag-cloud {
+	a {
+		text-decoration: none;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: underline;
+		}
+	}
+}

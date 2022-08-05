@@ -39,7 +39,7 @@
 			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:categories {"className":"is-style-flip-link-hover"} /-->
+			<!-- wp:categories /-->
 
 		</div>
 		<!-- /wp:group -->
@@ -57,7 +57,7 @@
 			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'ambitious' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:archives {"className":"is-style-flip-link-hover"} /-->
+			<!-- wp:archives /-->
 
 		</div>
 		<!-- /wp:group -->
