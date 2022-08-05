@@ -6,35 +6,37 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"blockGap":"3rem"}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"blockGap":"3vw"}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:columns {"style":{"spacing":{"blockGap":"2rem"}}} -->
 	<div class="wp-block-columns">
 
-		<!-- wp:column {"width":"30%"} -->
-		<div class="wp-block-column" style="flex-basis:30%">
+		<!-- wp:column {"width":"40%"} -->
+		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
 			<h2><?php _e( 'What clients say', 'ambitious' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'What customers <br>think about us.', 'ambitious' ); ?></p>
+			<p><?php _e( 'What customers think about us.', 'ambitious' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"70%"} -->
-		<div class="wp-block-column" style="flex-basis:70%">
+		<!-- wp:column {"width":"60%"} -->
+		<div class="wp-block-column" style="flex-basis:60%">
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
+			<!-- wp:group {"style":{"spacing":{"blockGap":"2rem","padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"border":{"width":"2px"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
+			<div class="wp-block-group" style="border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
-				<!-- wp:paragraph {"style":{"typography":{"fontSize":"120px","lineHeight":"1"}},"textColor":"primary"} -->
-				<p class="has-primary-color has-text-color" style="font-size:120px;line-height:1">“</p>
-				<!-- /wp:paragraph -->
+				<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+				<figure class="wp-block-image size-full is-style-rounded">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt=""/>
+				</figure>
+				<!-- /wp:image -->
 
 				<!-- wp:group -->
 				<div class="wp-block-group">
@@ -53,12 +55,14 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
+			<!-- wp:group {"style":{"spacing":{"blockGap":"2rem","padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"border":{"width":"2px"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
+			<div class="wp-block-group" style="border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
-				<!-- wp:paragraph {"style":{"typography":{"fontSize":"120px","lineHeight":"1"}},"textColor":"primary"} -->
-				<p class="has-primary-color has-text-color" style="font-size:120px;line-height:1">“</p>
-				<!-- /wp:paragraph -->
+				<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+				<figure class="wp-block-image size-full is-style-rounded">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt=""/>
+				</figure>
+				<!-- /wp:image -->
 
 				<!-- wp:group -->
 				<div class="wp-block-group">
