@@ -7,210 +7,88 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
+<!-- /wp:paragraph -->
 
-	<!-- wp:paragraph {"fontSize":"x-large"} -->
-	<p class="has-x-large-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-	<!-- /wp:paragraph -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"margin":{"top":"0px"}}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
-</div>
-<!-- /wp:group -->
+	<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"3vw"}}}} -->
+	<h2 class="has-text-align-center" style="margin-bottom:3vw"><?php _e( 'Our Team', 'ambitious' ); ?></h2>
+	<!-- /wp:heading -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"light-gray","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-light-gray-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
-
-	<!-- wp:columns {"align":"wide"} -->
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
 	<div class="wp-block-columns alignwide">
 
-		<!-- wp:column {"width":"40%"} -->
-		<div class="wp-block-column" style="flex-basis:40%">
+		<!-- wp:column -->
+		<div class="wp-block-column">
 
-			<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"3.5vw"}}}} -->
-			<h2 style="margin-bottom:3.5vw"><?php _e( 'Our principles', 'ambitious' ); ?></h2>
-			<!-- /wp:heading -->
-
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"60%"} -->
-		<div class="wp-block-column" style="flex-basis:60%">
-
-			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-			<div class="wp-block-columns alignwide">
-
-				<!-- wp:column -->
-				<div class="wp-block-column">
-
-					<!-- wp:heading {"level":3"} -->
-					<h3><?php _e( 'One', 'ambitious' ); ?></h3>
-					<!-- /wp:heading -->
-
-					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-				<!-- wp:column -->
-				<div class="wp-block-column">
-
-					<!-- wp:heading {"level":3"} -->
-					<h3><?php _e( 'Two', 'ambitious' ); ?></h3>
-					<!-- /wp:heading -->
-
-					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-			</div>
-			<!-- /wp:columns -->
-
-			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-			<div class="wp-block-columns alignwide">
-
-				<!-- wp:column -->
-				<div class="wp-block-column">
-
-					<!-- wp:heading {"level":3"} -->
-					<h3><?php _e( 'Three', 'ambitious' ); ?></h3>
-					<!-- /wp:heading -->
-
-					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-				<!-- wp:column -->
-				<div class="wp-block-column">
-
-					<!-- wp:heading {"level":3"} -->
-					<h3><?php _e( 'Four', 'ambitious' ); ?></h3>
-					<!-- /wp:heading -->
-
-					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-			</div>
-			<!-- /wp:columns -->
-
-		</div>
-		<!-- /wp:column -->
-
-	</div>
-	<!-- /wp:columns -->
-
-</div>
-<!-- /wp:group -->
-
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
-
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-
-		<!-- wp:column {"width":"40%"} -->
-		<div class="wp-block-column" style="flex-basis:40%">
-
-			<!-- wp:heading -->
-			<h2><?php _e( 'Our Team', 'ambitious' ); ?></h2>
-			<!-- /wp:heading -->
+			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+			<figure class="wp-block-image size-full is-style-default">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+			</figure>
+			<!-- /wp:image -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Meet our professionals and experts.', 'ambitious' ); ?></p>
+			<p><strong>John Doe</strong><br>Founder &amp; CEO</p>
 			<!-- /wp:paragraph -->
+
+			<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+			<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+				<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+				<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+			</ul>
+			<!-- /wp:social-links -->
 
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"60%"} -->
-		<div class="wp-block-column" style="flex-basis:60%">
+		<!-- wp:column -->
+		<div class="wp-block-column">
 
-			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-			<div class="wp-block-columns alignwide">
+			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+			<figure class="wp-block-image size-full is-style-default">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+			</figure>
+			<!-- /wp:image -->
 
-				<!-- wp:column -->
-				<div class="wp-block-column">
+			<!-- wp:paragraph -->
+			<p><strong>Jane Smith</strong><br>Web Developer</p>
+			<!-- /wp:paragraph -->
 
-					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
-					</figure>
-					<!-- /wp:image -->
+			<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+			<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+				<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+				<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+			</ul>
+			<!-- /wp:social-links -->
 
-					<!-- wp:paragraph -->
-					<p><strong>John Doe</strong><br>Founder &amp; CEO</p>
-					<!-- /wp:paragraph -->
+		</div>
+		<!-- /wp:column -->
 
-				</div>
-				<!-- /wp:column -->
+		<!-- wp:column -->
+		<div class="wp-block-column">
 
-				<!-- wp:column -->
-				<div class="wp-block-column">
+			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+			<figure class="wp-block-image size-full is-style-default">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+			</figure>
+			<!-- /wp:image -->
 
-					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
-					</figure>
-					<!-- /wp:image -->
+			<!-- wp:paragraph -->
+			<p><strong>Mark Miller</strong><br>Online Marketing</p>
+			<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph -->
-					<p><strong>Jane Smith</strong><br>Web Developer</p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-			</div>
-			<!-- /wp:columns -->
-
-			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-			<div class="wp-block-columns alignwide">
-
-				<!-- wp:column -->
-				<div class="wp-block-column">
-
-					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
-					</figure>
-					<!-- /wp:image -->
-
-					<!-- wp:paragraph -->
-					<p><strong>Mark Miller</strong><br>Online Marketing</p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-				<!-- wp:column -->
-				<div class="wp-block-column">
-
-					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
-					</figure>
-					<!-- /wp:image -->
-
-					<!-- wp:paragraph -->
-					<p><strong>Jill Baker</strong><br>Finance</p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:column -->
-
-			</div>
-			<!-- /wp:columns -->
+			<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"5px","left":"5px"},"margin":{"top":"8px"}}}} -->
+			<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:8px">
+				<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+				<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+			</ul>
+			<!-- /wp:social-links -->
 
 		</div>
 		<!-- /wp:column -->
@@ -221,11 +99,11 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"primary","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-color has-primary-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"margin":{"top":"0px"}}},"backgroundColor":"secondary","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-secondary-background-color has-text-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Join our team!', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Open positions', 'ambitious' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
@@ -234,25 +112,115 @@
 
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
-
-		<!-- wp:button {"backgroundColor":"white","textColor":"primary","className":"is-style-fill"} -->
-		<div class="wp-block-button is-style-fill">
-			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'View open positions', 'ambitious' ); ?></a>
-		</div>
+		<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Apply now', 'ambitious' ); ?></a></div>
 		<!-- /wp:button -->
-
 	</div>
 	<!-- /wp:buttons -->
 
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4vw","right":"4vw","bottom":"4vw","left":"4vw"},"margin":{"top":"0px"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
-	<!-- wp:paragraph {"fontSize":"x-large"} -->
-	<p class="has-x-large-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-	<!-- /wp:paragraph -->
+	<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"3vw"}}}} -->
+	<h2 style="margin-bottom:3vw"><?php _e( 'What we offer', 'ambitious' ); ?></h2>
+	<!-- /wp:heading -->
+
+	<!-- wp:separator {"className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- /wp:separator -->
+
+	<!-- wp:columns -->
+	<div class="wp-block-columns">
+
+		<!-- wp:column {"width":"35%"} -->
+		<div class="wp-block-column" style="flex-basis:35%">
+
+			<!-- wp:heading {"level":3} -->
+			<h3><?php _e( 'Perk One', 'ambitious' ); ?></h3>
+			<!-- /wp:heading -->
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"65%"} -->
+		<div class="wp-block-column" style="flex-basis:65%">
+
+		<!-- wp:paragraph -->
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
+		<!-- /wp:paragraph -->
+
+		</div>
+		<!-- /wp:column -->
+
+	</div>
+	<!-- /wp:columns -->
+
+	<!-- wp:separator {"className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- /wp:separator -->
+
+	<!-- wp:columns -->
+	<div class="wp-block-columns">
+
+		<!-- wp:column {"width":"35%"} -->
+		<div class="wp-block-column" style="flex-basis:35%">
+
+			<!-- wp:heading {"level":3} -->
+			<h3><?php _e( 'Perk Two', 'ambitious' ); ?></h3>
+			<!-- /wp:heading -->
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"65%"} -->
+		<div class="wp-block-column" style="flex-basis:65%">
+
+		<!-- wp:paragraph -->
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
+		<!-- /wp:paragraph -->
+
+		</div>
+		<!-- /wp:column -->
+
+	</div>
+	<!-- /wp:columns -->
+
+	<!-- wp:separator {"className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- /wp:separator -->
+
+	<!-- wp:columns -->
+	<div class="wp-block-columns">
+
+		<!-- wp:column {"width":"35%"} -->
+		<div class="wp-block-column" style="flex-basis:35%">
+
+			<!-- wp:heading {"level":3} -->
+			<h3><?php _e( 'Perk Three', 'ambitious' ); ?></h3>
+			<!-- /wp:heading -->
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"65%"} -->
+		<div class="wp-block-column" style="flex-basis:65%">
+
+		<!-- wp:paragraph -->
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
+		<!-- /wp:paragraph -->
+
+		</div>
+		<!-- /wp:column -->
+
+	</div>
+	<!-- /wp:columns -->
+
+	<!-- wp:separator {"className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- /wp:separator -->
 
 </div>
 <!-- /wp:group -->
