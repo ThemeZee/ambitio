@@ -351,6 +351,10 @@ Remove CSS when 6.0 is released. */
 	}
 }
 
+.site-footer {
+	margin-top: 0;
+}
+
 /* Block Alignments */
 .site-content {
 	overflow: hidden;
