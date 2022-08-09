@@ -8,11 +8,11 @@ Tested up to: 6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Ambitious is a next generation block theme built for the new WordPress Full-Site-Editing experience.
+Ambitious is a clean and lightweight block theme with modern colors and typography.
 
 == Description ==
 
-Ambitious is a next generation block theme built for the new WordPress Full-Site-Editing experience. It comes with a clean and modern design and is packed with features, including a huge range of block patterns, multiple header and footer block template parts and support for global style variants.
+Ambitious is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.
 For more information about Ambitious please go to https://themezee.com/themes/ambitious/
 
 == Installation ==
@@ -23,7 +23,7 @@ For more information about Ambitious please go to https://themezee.com/themes/am
 
 == Changelog ==
 
-= 1.0 - 2022-06-01 =
+= 1.0 - 2022-08-09 =
 * Initial Release
 
 == Copyright ==
@@ -49,12 +49,24 @@ Ambitious bundles and uses the following third-party resources:
 License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)
 Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
 
-2. Roboto Font - https://fonts.google.com/specimen/Roboto
-License: Distributed under the terms of the APACHE LICENSE, VERSION 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
-Copyright: Christian Robertson
+2. Manrope Font - https://fonts.google.com/specimen/Manrope
+License: Distributed under the terms of the Open Font License (http://scripts.sil.org/OFL)
+Copyright: Mikhail Sharanda
 
-3. Image used in screenshot.png is from StockSnap
+3. Libre Franklin Font - https://fonts.google.com/specimen/Libre+Franklin
+License: Distributed under the terms of the Open Font License (http://scripts.sil.org/OFL)
+Copyright: Impallari Type
 
-https://stocksnap.io/photo/architecture-building-RV2H4VBE3L
+4. Images used in screenshot.png are from StockSnap
+
+a) https://stocksnap.io/photo/architecture-building-RV2H4VBE3L
 License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
 Copyright: Lance Anderson (https://stocksnap.io/author/450)
+
+b) https://stocksnap.io/photo/industrial-building-TUKK1NF6OP
+License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: Bob Richards (https://stocksnap.io/author/bobrichards)
+
+c) https://stocksnap.io/photo/architecture-building-YLZ9D6JH3M
+License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: All Bong (https://stocksnap.io/author/31654)

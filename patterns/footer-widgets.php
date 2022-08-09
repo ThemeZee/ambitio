@@ -20,7 +20,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Ambitious is a next generation block theme built for the new WordPress Full-Site-Editing experience. It comes with a clean and modern design and is packed with features, including a huge range of block patterns, multiple header and footer block template parts and support for global style variants.', 'ambitious' ); ?></p>
+			<p><?php _e( 'Ambitious is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.', 'ambitious' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>
