@@ -23,16 +23,6 @@
 			]
 		}
 	],
-	"patterns": [
-		"feature-columns",
-		"feature-grid",
-		"footer-text",
-		"footer-widgets",
-		"hero-section",
-		"postmeta",
-		"posts-list",
-		"sidebar-widgets"
-	],
 	"settings": {
 		"border": {
 			"color": true,
@@ -62,7 +52,7 @@
 				},
 				{
 					"slug": "light-background",
-					"color": "#b2e5f6",
+					"color": "#ddfaff",
 					"name": "Light Background"
 				},
 				{
@@ -102,10 +92,10 @@
 		},
 		"layout": {
 			"contentSize": "800px",
-			"wideSize": "1080px"
+			"wideSize": "1200px"
 		},
 		"typography": {
-			"dropCap": false,
+			"dropCap": true,
 			"customFontSize": true,
 			"letterSpacing": true,
 			"lineHeight": true,
