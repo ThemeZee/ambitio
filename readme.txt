@@ -2,7 +2,7 @@
 Author URI: https://themezee.com/
 Theme URI: https://themezee.com/themes/ambitious/
 Contributors: themezee
-Tags: full-site-editing, template-editing, one-column, blog, news, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
+Tags: full-site-editing, template-editing, one-column, blog, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
 Requires at least: 6.0
 Tested up to: 6.0
 License: GPLv2 or later
