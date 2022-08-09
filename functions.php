@@ -121,7 +121,7 @@ function ambitious_block_editor_body_classes( $classes ) {
 	}
 
 	// No Title Page Template?
-	if ( 'page-no-title' === get_page_template_slug( $post->ID ) or 'page-no-title-fullwidth' === get_page_template_slug( $post->ID ) or 'blank' === get_page_template_slug( $post->ID ) ) {
+	if ( 'page-no-title' === get_page_template_slug( $post->ID ) or 'page-no-title-fullwidth' === get_page_template_slug( $post->ID ) ) {
 		$classes .= ' ambitious-no-title-page';
 	}
 
