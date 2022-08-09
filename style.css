@@ -324,33 +324,6 @@ textarea {
 /*--------------------------------------------------------------
 # - Theme Layout
 --------------------------------------------------------------*/
-
-/* Block Gap option for columns not yet supported in 5.9.
-Remove CSS when 6.0 is released. */
-.site-content > .wp-block-columns {
-	gap: 3.5vw;
-}
-
-.site-content > .wp-block-columns > .wp-block-column {
-	margin-left: 0 !important;
-}
-
-/* Change breakproint of main sidebar layout */
-@media (max-width: 880px) {
-	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) {
-		flex-wrap: wrap;
-	}
-
-	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
-		flex-basis: 100% !important;
-	}
-
-	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:not(:first-child) {
-		margin-top: var(--wp--style--block-gap, 2em);
-		margin-left: 0;
-	}
-}
-
 .site-footer {
 	margin-top: 0;
 }
@@ -362,8 +335,8 @@ Remove CSS when 6.0 is released. */
 
 .wp-block-post-content > .alignwide,
 .wp-block-post-content > .alignfull {
-	margin-left: -3.5vw;
-	margin-right: -3.5vw;
+	margin-left: -4vw;
+	margin-right: -4vw;
 	width: auto;
 }
 
@@ -384,8 +357,8 @@ Remove CSS when 6.0 is released. */
 
 @media only screen and (min-width: 1200px) {
 	.wp-block-post-content > .alignwide {
-		margin-left: -140px;
-		margin-right: -140px;
+		margin-left: -200px;
+		margin-right: -200px;
 	}
 }
 
@@ -494,7 +467,7 @@ Remove CSS when 6.0 is released. */
 /* Post Title Block */
 .wp-block-post-title a {
 	text-decoration: none;
-	color: var(--wp--preset--color--foreground);
+	color: #202020;
 }
 
 .wp-block-post-title a:hover, .wp-block-post-title a:focus, .wp-block-post-title a:active {
