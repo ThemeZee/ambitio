@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero Columns Dark
- * Slug: ambitious/hero-columns-dark
- * Categories: ambitious_hero
+ * Slug: ambitio/hero-columns-dark
+ * Categories: ambitio_hero
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}}} -->
-			<h1 style="margin-top:0px"><?php _e( 'Hero Headline', 'ambitious' ); ?></h1>
+			<h1 style="margin-top:0px"><?php _e( 'Hero Headline', 'ambitio' ); ?></h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -26,11 +26,11 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 
 				<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

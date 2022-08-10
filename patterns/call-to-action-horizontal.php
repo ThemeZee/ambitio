@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Call to Action Horizontal
- * Slug: ambitious/call-to-action-horizontal
- * Categories: ambitious_cta
+ * Slug: ambitio/call-to-action-horizontal
+ * Categories: ambitio_cta
 */
 ?>
 
@@ -28,7 +28,7 @@
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 			<div class="wp-block-buttons">
 				<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

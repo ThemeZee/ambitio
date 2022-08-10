@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page Header
- * Slug: ambitious/page-header
+ * Slug: ambitio/page-header
  * Inserter: no
 */
 ?>
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull entry-header has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:6vw;padding-right:4vw;padding-bottom:6vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center","level":1} -->
-	<h1 class="has-text-align-center"><?php _e( 'Latest News', 'ambitious' ); ?></h1>
+	<h1 class="has-text-align-center"><?php _e( 'Latest News', 'ambitio' ); ?></h1>
 	<!-- /wp:heading -->
 
 </div>

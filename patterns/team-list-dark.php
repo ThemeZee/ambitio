@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Team List Dark
- * Slug: ambitious/team-list-dark
- * Categories: ambitious_team
+ * Slug: ambitio/team-list-dark
+ * Categories: ambitio_team
 */
 ?>
 
@@ -16,11 +16,11 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'Our Team', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'Our Team', 'ambitio' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Meet our professionals and experts.', 'ambitious' ); ?></p>
+			<p><?php _e( 'Meet our professionals and experts.', 'ambitio' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>

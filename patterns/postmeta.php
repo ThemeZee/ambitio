@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Postmeta
- * Slug: ambitious/postmeta
+ * Slug: ambitio/postmeta
  * Inserter: no
 */
 ?>
@@ -10,13 +10,13 @@
 <div class="wp-block-group has-dark-gray-color has-text-color">
 
 	<!-- wp:paragraph -->
-	<p><?php _e( 'Posted on', 'ambitious' ); ?></p>
+	<p><?php _e( 'Posted on', 'ambitio' ); ?></p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:post-date {"isLink":true} /-->
 
 	<!-- wp:paragraph -->
-	<p><?php _e( 'by', 'ambitious' ); ?></p>
+	<p><?php _e( 'by', 'ambitio' ); ?></p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:post-author {"showAvatar":false} /-->

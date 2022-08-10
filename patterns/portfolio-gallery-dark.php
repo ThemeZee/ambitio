@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Gallery Dark
- * Slug: ambitious/portfolio-gallery-dark
- * Categories: ambitious_portfolio
+ * Slug: ambitio/portfolio-gallery-dark
+ * Categories: ambitio_portfolio
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'Our latest work', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'Our latest work', 'ambitio' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -26,7 +26,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

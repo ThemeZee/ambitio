@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: About Page
- * Slug: ambitious/page-layout-about
+ * Slug: ambitio/page-layout-about
  * Block Types: core/post-content
- * Categories: ambitious_page_layouts
+ * Categories: ambitio_page_layouts
 */
 ?>
 
@@ -15,7 +15,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"3vw"}}}} -->
-	<h2 class="has-text-align-center" style="margin-bottom:3vw"><?php _e( 'Our Team', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center" style="margin-bottom:3vw"><?php _e( 'Our Team', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
@@ -103,7 +103,7 @@
 <div class="wp-block-group alignfull has-white-color has-secondary-background-color has-text-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Open positions', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Open positions', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
@@ -113,7 +113,7 @@
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
 		<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Apply now', 'ambitious' ); ?></a></div>
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Apply now', 'ambitio' ); ?></a></div>
 		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
@@ -125,7 +125,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"3vw"}}}} -->
-	<h2 style="margin-bottom:3vw"><?php _e( 'What we offer', 'ambitious' ); ?></h2>
+	<h2 style="margin-bottom:3vw"><?php _e( 'What we offer', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:separator {"className":"is-style-wide"} -->
@@ -139,7 +139,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Perk One', 'ambitious' ); ?></h3>
+			<h3><?php _e( 'Perk One', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>
@@ -169,7 +169,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Perk Two', 'ambitious' ); ?></h3>
+			<h3><?php _e( 'Perk Two', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>
@@ -199,7 +199,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Perk Three', 'ambitious' ); ?></h3>
+			<h3><?php _e( 'Perk Three', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>

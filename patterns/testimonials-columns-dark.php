@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Testimonials Columns Dark
- * Slug: ambitious/testimonials-columns-dark
- * Categories: ambitious_testimonials
+ * Slug: ambitio/testimonials-columns-dark
+ * Categories: ambitio_testimonials
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="has-text-align-center"><?php _e( 'What clients say', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center"><?php _e( 'What clients say', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->

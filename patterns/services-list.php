@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Services List
- * Slug: ambitious/services-list
- * Categories: ambitious_services
+ * Slug: ambitio/services-list
+ * Categories: ambitio_services
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 		<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"4vw"}}}} -->
-		<h2 style="margin-bottom:4vw"><?php _e( 'What we offer', 'ambitious' ); ?></h2>
+		<h2 style="margin-bottom:4vw"><?php _e( 'What we offer', 'ambitio' ); ?></h2>
 		<!-- /wp:heading -->
 
 		</div>
@@ -29,7 +29,7 @@
 			<div class="wp-block-group" style="border-style:solid;border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
 				<!-- wp:heading {"level":3} -->
-				<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
+				<h3><?php _e( 'Service One', 'ambitio' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -43,7 +43,7 @@
 			<div class="wp-block-group" style="border-style:solid;border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
 				<!-- wp:heading {"level":3} -->
-				<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+				<h3><?php _e( 'Service Two', 'ambitio' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Double Dark
- * Slug: ambitious/portfolio-double-dark
- * Categories: ambitious_portfolio
+ * Slug: ambitio/portfolio-double-dark
+ * Categories: ambitio_portfolio
 */
 ?>
 
@@ -22,7 +22,7 @@
 		<!-- /wp:image -->
 
 		<!-- wp:heading {"level":3} -->
-		<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
+		<h3><?php _e( 'Project One', 'ambitio' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -32,7 +32,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
@@ -54,7 +54,7 @@
 		<!-- /wp:image -->
 
 		<!-- wp:heading {"level":3} -->
-		<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+		<h3><?php _e( 'Project Two', 'ambitio' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -64,7 +64,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

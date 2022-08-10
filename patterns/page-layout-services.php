@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Service Page
- * Slug: ambitious/page-layout-services
+ * Slug: ambitio/page-layout-services
  * Block Types: core/post-content
- * Categories: ambitious_page_layouts
+ * Categories: ambitio_page_layouts
 */
 ?>
 
@@ -24,7 +24,7 @@
 			<div class="wp-block-group" style="border-style:solid;border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
 				<!-- wp:heading {"level":3} -->
-				<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
+				<h3><?php _e( 'Service One', 'ambitio' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -44,7 +44,7 @@
 			<div class="wp-block-group" style="border-style:solid;border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
 				<!-- wp:heading {"level":3} -->
-				<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+				<h3><?php _e( 'Service Two', 'ambitio' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -64,7 +64,7 @@
 			<div class="wp-block-group" style="border-style:solid;border-width:2px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
 				<!-- wp:heading {"level":3} -->
-				<h3><?php _e( 'Service Three', 'ambitious' ); ?></h3>
+				<h3><?php _e( 'Service Three', 'ambitio' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
@@ -87,7 +87,7 @@
 <div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="has-text-align-center"><?php _e( 'Why choose us?', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center"><?php _e( 'Why choose us?', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"style":{"spacing":{"blockGap":"4vw"}}} -->
@@ -241,7 +241,7 @@
 		<!-- /wp:image -->
 
 		<!-- wp:heading {"level":3} -->
-		<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
+		<h3><?php _e( 'Project One', 'ambitio' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -251,7 +251,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
@@ -273,7 +273,7 @@
 		<!-- /wp:image -->
 
 		<!-- wp:heading {"level":3} -->
-		<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+		<h3><?php _e( 'Project Two', 'ambitio' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -283,7 +283,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
@@ -301,7 +301,7 @@
 <div class="wp-block-group alignfull has-white-color has-secondary-background-color has-text-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Call to Action', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Call to Action', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
@@ -311,7 +311,7 @@
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
 		<!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitious' ); ?></a></div>
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color"><?php _e( 'Get started', 'ambitio' ); ?></a></div>
 		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
@@ -323,7 +323,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0px;padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"3vw"}}}} -->
-	<h2 class="has-text-align-center" style="margin-bottom:3vw"><?php _e( 'What clients say', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center" style="margin-bottom:3vw"><?php _e( 'What clients say', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->

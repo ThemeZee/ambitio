@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Three Columns Grid
- * Slug: ambitious/blog-posts-three-columns-grid
+ * Slug: ambitio/blog-posts-three-columns-grid
  * Block Types: core/query
- * Categories: ambitious_blog
+ * Categories: ambitio_blog
 */
 ?>
 
@@ -19,7 +19,7 @@
 
 			<!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
 
-			<!-- wp:pattern {"slug":"ambitious/postmeta"} /-->
+			<!-- wp:pattern {"slug":"ambitio/postmeta"} /-->
 
 			<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e","style":{"spacing":{"margin":{"bottom":"0px"}}}} /-->
 

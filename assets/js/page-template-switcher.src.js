@@ -3,7 +3,7 @@
  * 
  * Updates body classes on Gutenberg Editor when page templates are changed.
  * 
- * @package Ambitious
+ * @package Ambitio
  */
 
 /**
@@ -29,8 +29,8 @@
 			 return null;
 		 }
  
-		 const fullWidthClass = 'ambitious-fullwidth-page';
-		 const noTitleClass = 'ambitious-no-title-page';
+		 const fullWidthClass = 'ambitio-fullwidth-page';
+		 const noTitleClass = 'ambitio-no-title-page';
  
 		 if ( 'page-fullwidth' === pageTemplate ) {
 			 document.body.classList.add( fullWidthClass );
@@ -67,7 +67,7 @@
  /**
   * Register plugin in Editor
   */
- registerPlugin( 'ambitious-page-template-switcher', {
+ registerPlugin( 'ambitio-page-template-switcher', {
 	 render: plugin,
  } );
  

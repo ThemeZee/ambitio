@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Default List View
- * Slug: ambitious/blog-posts-list
+ * Slug: ambitio/blog-posts-list
  * Block Types: core/query
- * Categories: ambitious_blog
+ * Categories: ambitio_blog
 */
 ?>
 
@@ -28,7 +28,7 @@
 
 				<!-- wp:post-title {"isLink":true,"fontSize":"xx-large"} /-->
 
-				<!-- wp:pattern {"slug":"ambitious/postmeta"} /-->
+				<!-- wp:pattern {"slug":"ambitio/postmeta"} /-->
 
 				<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e","style":{"spacing":{"margin":{"bottom":"0px"}}}} /-->
 

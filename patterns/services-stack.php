@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Services Stack
- * Slug: ambitious/services-stack
- * Categories: ambitious_services
+ * Slug: ambitio/services-stack
+ * Categories: ambitio_services
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"3vw"}}}} -->
-	<h2 style="margin-bottom:3vw"><?php _e( 'What we offer', 'ambitious' ); ?></h2>
+	<h2 style="margin-bottom:3vw"><?php _e( 'What we offer', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:separator {"className":"is-style-wide"} -->
@@ -24,7 +24,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Service One', 'ambitious' ); ?></h3>
+			<h3><?php _e( 'Service One', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>
@@ -54,7 +54,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Service Two', 'ambitious' ); ?></h3>
+			<h3><?php _e( 'Service Two', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>
@@ -84,7 +84,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Service Three', 'ambitious' ); ?></h3>
+			<h3><?php _e( 'Service Three', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>

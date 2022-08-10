@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero Columns
- * Slug: ambitious/hero-columns
- * Categories: ambitious_hero
+ * Slug: ambitio/hero-columns
+ * Categories: ambitio_hero
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}}} -->
-			<h1 style="margin-top:0px"><?php _e( 'Hero Headline', 'ambitious' ); ?></h1>
+			<h1 style="margin-top:0px"><?php _e( 'Hero Headline', 'ambitio' ); ?></h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -26,11 +26,11 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Get started', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Get started', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

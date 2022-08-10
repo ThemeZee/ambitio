@@ -1,6 +1,6 @@
-=== Ambitious ===
+=== Ambitio ===
 Author URI: https://themezee.com/
-Theme URI: https://themezee.com/themes/ambitious/
+Theme URI: https://themezee.com/themes/ambitio/
 Contributors: themezee
 Tags: full-site-editing, template-editing, one-column, blog, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
 Requires at least: 6.0
@@ -8,18 +8,18 @@ Tested up to: 6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Ambitious is a clean and lightweight block theme with modern colors and typography.
+Ambitio is a clean and lightweight block theme with modern colors and typography.
 
 == Description ==
 
-Ambitious is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.
-For more information about Ambitious please go to https://themezee.com/themes/ambitious/
+Ambitio is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.
+For more information about Ambitio please go to https://themezee.com/themes/ambitio/
 
 == Installation ==
 
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Click on the 'Upload Theme' button to upload the ZIP-file of the theme.
-3. Go to https://themezee.com/en/docs/ambitious-documentation/ for a guide on how to use and customize this theme.
+3. Go to https://themezee.com/en/docs/ambitio-documentation/ for a guide on how to use and customize this theme.
 
 == Changelog ==
 
@@ -28,8 +28,8 @@ For more information about Ambitious please go to https://themezee.com/themes/am
 
 == Copyright ==
 
-Ambitious WordPress Theme, Copyright 2022 ThemeZee.de
-Ambitious is distributed under the terms of the GNU GPL
+Ambitio WordPress Theme, Copyright 2022 ThemeZee.de
+Ambitio is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -43,7 +43,7 @@ GNU General Public License for more details.
 
 == Ressources ==
 
-Ambitious bundles and uses the following third-party resources:
+Ambitio bundles and uses the following third-party resources:
 
 1. WPTT Webfont Loader - https://github.com/WPTT/webfont-loader
 License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)

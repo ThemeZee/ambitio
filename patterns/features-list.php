@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Features List
- * Slug: ambitious/features-list
- * Categories: ambitious_features
+ * Slug: ambitio/features-list
+ * Categories: ambitio_features
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'Why choose us?', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'Why choose us?', 'ambitio' ); ?></h2>
 			<!-- /wp:heading -->
 
 		</div>

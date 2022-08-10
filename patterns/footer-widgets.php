@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Widgets
- * Slug: ambitious/footer-widgets
+ * Slug: ambitio/footer-widgets
  * Inserter: no
 */
 ?>
@@ -16,11 +16,11 @@
 		<div class="wp-block-group footer-widget">
 
 			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'About Ambitious', 'ambitious' ); ?></h3>
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'About Ambitio', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Ambitious is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.', 'ambitious' ); ?></p>
+			<p><?php _e( 'Ambitio is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.', 'ambitio' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>
@@ -36,7 +36,7 @@
 		<div class="wp-block-group footer-widget">
 
 			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'ambitious' ); ?></h3>
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:categories /-->
@@ -54,7 +54,7 @@
 		<div class="wp-block-group footer-widget">
 
 			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'ambitious' ); ?></h3>
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:archives /-->
@@ -72,7 +72,7 @@
 		<div class="wp-block-group footer-widget">
 
 			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Stay in touch', 'ambitious' ); ?></h3>
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Stay in touch', 'ambitio' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->

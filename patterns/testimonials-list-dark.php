@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Testimonials List Dark
- * Slug: ambitious/testimonials-list-dark
- * Categories: ambitious_testimonials
+ * Slug: ambitio/testimonials-list-dark
+ * Categories: ambitio_testimonials
 */
 ?>
 
@@ -16,11 +16,11 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'What clients say', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'What clients say', 'ambitio' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'What customers think about us.', 'ambitious' ); ?></p>
+			<p><?php _e( 'What customers think about us.', 'ambitio' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>

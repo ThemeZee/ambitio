@@ -1,22 +1,22 @@
 {
-  "name": "ambitious",
+  "name": "ambitio",
   "version": "1.0.0",
-  "description": "Ambitious WordPress Theme",
+  "description": "Ambitio WordPress Theme",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "export": "git archive HEAD -9 --prefix ambitious/ --format=zip > ../../ambitious.zip"
+    "export": "git archive HEAD -9 --prefix ambitio/ --format=zip > ../../ambitio.zip"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThemeZee/ambitious.git"
+    "url": "git+https://github.com/ThemeZee/ambitio.git"
   },
   "author": "ThemeZee",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ThemeZee/ambitious/issues"
+    "url": "https://github.com/ThemeZee/ambitio/issues"
   },
-  "homepage": "https://github.com/ThemeZee/ambitious#readme",
+  "homepage": "https://github.com/ThemeZee/ambitio#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "gulp": "^4.0.2",

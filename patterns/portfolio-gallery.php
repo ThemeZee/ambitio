@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Gallery
- * Slug: ambitious/portfolio-gallery
- * Categories: ambitious_portfolio
+ * Slug: ambitio/portfolio-gallery
+ * Categories: ambitio_portfolio
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'Our latest work', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'Our latest work', 'ambitio' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -26,7 +26,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

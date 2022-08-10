@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Postmeta
- * Slug: ambitious/postmeta-single
+ * Slug: ambitio/postmeta-single
  * Inserter: no
 */
 ?>
@@ -10,19 +10,19 @@
 <div class="wp-block-group has-light-gray-color has-text-color has-link-color">
 
 	<!-- wp:paragraph -->
-	<p><?php _e( 'Posted on', 'ambitious' ); ?></p>
+	<p><?php _e( 'Posted on', 'ambitio' ); ?></p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:post-date {"isLink":true} /-->
 
 	<!-- wp:paragraph -->
-	<p><?php _e( 'by', 'ambitious' ); ?></p>
+	<p><?php _e( 'by', 'ambitio' ); ?></p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:post-author {"showAvatar":false} /-->
 
 	<!-- wp:paragraph -->
-	<p><?php _e( 'in', 'ambitious' ); ?></p>
+	<p><?php _e( 'in', 'ambitio' ); ?></p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:post-terms {"term":"category"} /-->

@@ -1,7 +1,7 @@
 /*
  * Editor Styles
  *
- * @package Ambitious
+ * @package Ambitio
  */
 
 /* Font Size */
@@ -24,7 +24,7 @@
 }
 
 /* No Title Template */
-.ambitious-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
+.ambitio-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
 	margin-top: 0;
 	margin-bottom: var(--wp--style--block-gap);
 	padding: 2rem 0;
@@ -49,7 +49,7 @@
 }
 
 /* Fullwidth Template */
-.ambitious-fullwidth-page.block-editor-page .edit-post-visual-editor {
+.ambitio-fullwidth-page.block-editor-page .edit-post-visual-editor {
 	.edit-post-visual-editor__post-title-wrapper {
 		padding-left: 4vw;
 		padding-right: 4vw;

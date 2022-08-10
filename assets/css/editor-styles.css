@@ -1,7 +1,7 @@
 /*
  * Editor Styles
  *
- * @package Ambitious
+ * @package Ambitio
  */
 
 /* Font Size */
@@ -24,7 +24,7 @@
 }
 
 /* No Title Template */
-.ambitious-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
+.ambitio-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
 	margin-top: 0;
 	margin-bottom: var(--wp--style--block-gap);
 	padding: 2rem 0;
@@ -36,31 +36,31 @@
 	background-position: 0 0, 10px 10px;
 }
 
-.ambitious-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper .editor-post-title__block .editor-post-title__input {
+.ambitio-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper .editor-post-title__block .editor-post-title__input {
 	border-bottom: none;
 	padding-bottom: 1rem;
 }
 
-.ambitious-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper > .wp-block-post-title {
+.ambitio-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper > .wp-block-post-title {
 	max-width: 800px;
 	font-size: var(--wp--preset--font-size--x-large);
 }
 
 /* Fullwidth Template */
-.ambitious-fullwidth-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
+.ambitio-fullwidth-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
 	padding-left: 4vw;
 	padding-right: 4vw;
 }
 
-.ambitious-fullwidth-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper > .wp-block-post-title {
+.ambitio-fullwidth-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper > .wp-block-post-title {
 	max-width: 2400px;
 }
 
-.ambitious-fullwidth-page.block-editor-page .edit-post-visual-editor .block-editor-block-list__layout.is-root-container {
+.ambitio-fullwidth-page.block-editor-page .edit-post-visual-editor .block-editor-block-list__layout.is-root-container {
 	padding-left: 4vw;
 	padding-right: 4vw;
 }
 
-.ambitious-fullwidth-page.block-editor-page .edit-post-visual-editor .block-editor-block-list__layout.is-root-container > * {
+.ambitio-fullwidth-page.block-editor-page .edit-post-visual-editor .block-editor-block-list__layout.is-root-container > * {
 	max-width: 2400px;
 }

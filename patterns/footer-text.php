@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Text
- * Slug: ambitious/footer-text
+ * Slug: ambitio/footer-text
  * Inserter: no
 */
 ?>

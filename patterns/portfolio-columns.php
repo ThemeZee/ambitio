@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Columns
- * Slug: ambitious/portfolio-columns
- * Categories: ambitious_portfolio
+ * Slug: ambitio/portfolio-columns
+ * Categories: ambitio_portfolio
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:33%">
 
 			<!-- wp:heading -->
-			<h2><?php _e( 'Our latest work', 'ambitious' ); ?></h2>
+			<h2><?php _e( 'Our latest work', 'ambitio' ); ?></h2>
 			<!-- /wp:heading -->
 
 		</div>
@@ -38,7 +38,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"level":3} -->
-					<h3><?php _e( 'Project One', 'ambitious' ); ?></h3>
+					<h3><?php _e( 'Project One', 'ambitio' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -48,7 +48,7 @@
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -66,7 +66,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"level":3} -->
-					<h3><?php _e( 'Project Two', 'ambitious' ); ?></h3>
+					<h3><?php _e( 'Project Two', 'ambitio' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -76,7 +76,7 @@
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitious' ); ?></a></div>
+						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'ambitio' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->

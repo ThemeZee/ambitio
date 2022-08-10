@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Features Grid Dark
- * Slug: ambitious/features-grid-dark
- * Categories: ambitious_features
+ * Slug: ambitio/features-grid-dark
+ * Categories: ambitio_features
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:4vw;padding-right:4vw;padding-bottom:4vw;padding-left:4vw">
 
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="has-text-align-center"><?php _e( 'Why choose us?', 'ambitious' ); ?></h2>
+	<h2 class="has-text-align-center"><?php _e( 'Why choose us?', 'ambitio' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"style":{"spacing":{"blockGap":"4vw"}}} -->
